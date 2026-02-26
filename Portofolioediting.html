@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hendri Montage - Portofolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #1c1c1c;
+      color: white;
+    }
+    section {
+      padding: 80px 20px;
+    }
+    .hero {
+      background: linear-gradient(135deg, #3e2f1c, #4b4b4b);
+      text-align: center;
+    }
+    .hero img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #ffffff;
+      margin-bottom: 20px;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    .hero h2 {
+      font-size: 1.2rem;
+      font-weight: 300;
+      margin-top: 10px;
+      color: #ccc;
+    }
+    .tagline {
+      margin-top: 20px;
+      font-size: 1.1rem;
+    }
+    .cta {
+      margin-top: 30px;
+    }
+    .cta button {
+      background-color: #4b5320;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      margin: 10px;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    .scroll-indicator {
+      margin-top: 60px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    .section-title {
+      font-size: 1.8rem;
+      text-align: center;
+      margin-bottom: 40px;
+      color: #fff3e0;
+    }
+    .gallery, .skills, .testimonials {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .gallery-item, .skill-item, .testimonial-item {
+      background-color: #2a2a2a;
+      padding: 20px;
+      border-radius: 8px;
+      width: 280px;
+      text-align: center;
+    }
+    .about {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+      color: #ddd;
+    }
+    .contact {
+      text-align: center;
+    }
+    .contact a {
+      background-color: #4b5320;
+      padding: 12px 24px;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <img src="profile-placeholder.jpg" alt="Foto Hendri">
+    <h1>HENDRI HERMANTO</h1>
+    <h2>VISUAL CREATOR | EDITOR | STORYTELLER</h2>
+    <div class="tagline">
+      <p>Gue bantu lo bikin visual yang bukan cuma cakep, tapi juga berkesan!</p>
+    </div>
+    <div class="cta">
+      <button onclick="location.href='#karya'">LIHAT KARYA GUA</button>
+      <button onclick="location.href='#kontak'">KONTAK GUA</button>
+    </div>
+    <div class="scroll-indicator">
+      <p>↓ Scroll buat lihat lebih banyak!</p>
+    </div>
+  </section>
+  <section id="karya">
+    <h2 class="section-title">KARYA TERBAIK</h2>
+    <div class="gallery">
+      <div class="gallery-item">Thumbnail Karya 1</div>
+      <div class="gallery-item">Thumbnail Karya 2</div>
+      <div class="gallery-item">Thumbnail Karya 3</div>
+    </div>
+  </section>
+  <section id="about">
+    <h2 class="section-title">TENTANG GUA</h2>
+    <div class="about">
+      <p>Nama gue Hendri. Gua mulai ngedit sejak 2020, terus berkembang dari editor iseng jadi visual creator full-time. Gua suka storytelling, visual yang rapi, dan punya ciri khas. Sekarang gua siap bantu lo bikin karya yang impactful.</p>
+    </div>
+  </section>
+  <section id="skills">
+    <h2 class="section-title">TOOLS & KEAHLIAN</h2>
+    <div class="skills">
+      <div class="skill-item">Adobe Premiere Pro</div>
+      <div class="skill-item">Canva</div>
+      <div class="skill-item">CapCut</div>
+      <div class="skill-item">Photoshop</div>
+      <div class="skill-item">Storytelling Visual</div>
+    </div>
+  </section>
+  <section id="testimoni">
+    <h2 class="section-title">TESTIMONI</h2>
+    <div class="testimonials">
+      <div class="testimonial-item">"Hasil editing-nya rapi dan cepat!"</div>
+      <div class="testimonial-item">"Ngobrolnya enak, ngerti apa yang klien mau."</div>
+      <div class="testimonial-item">"Konten gue langsung keliatan lebih profesional."</div>
+    </div>
+  </section>
+  <section id="kontak">
+    <h2 class="section-title">KONTAK / KOLABORASI</h2>
+    <div class="contact">
+      <p>Mau kerja sama? Ajak gua ngobrol aja langsung lewat WhatsApp atau DM IG!</p>
+      <a href="https://wa.me/6281234567890" target="_blank">Chat via WhatsApp</a>
+    </div>
+  </section>
+</body>
+</html>
